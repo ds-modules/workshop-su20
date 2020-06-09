@@ -1,0 +1,11 @@
+{
+  "name": "datascience Demo",
+  "endpoint": "",
+  "src": [
+    "demo.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": []
+}
