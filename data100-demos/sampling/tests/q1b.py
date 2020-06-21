@@ -1,0 +1,10 @@
+test = {   'name': 'q1b',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> np.all(all_probs >= 0) and np.all(all_probs <= 1)\nTrue', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> k = np.arange(101);\n>>> test_1b = special.comb(100, k)*(0.26**k)*(0.74**(100-k));\n>>> np.all(np.isclose(test_1b, all_probs, atol = 1e-5))\nTrue',
+                                       'hidden': True,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
